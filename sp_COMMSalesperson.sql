@@ -30,6 +30,7 @@ AS
 	--		@LocYear INT = @Year
 
 	BEGIN
+		--Awit
 		IF @Mode = 'LoadDDSalesTarget' SET @Mode = 'LoadSalesDropDown'
 		IF @Mode = 'LoadSalesRep'
 			BEGIN
